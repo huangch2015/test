@@ -1,0 +1,20 @@
+mvn archetype:generate -B -DgroupId=com.mycompany -DartifactId=convention -DarchetypeGroupId=org.apache.struts -DarchetypeArtifactId=struts2-archetype-convention -DarchetypeVersion=2.3.20 -DremoteRepositories=http://struts.apache.org
+
+mvn archetype:generate -B -DgroupId=com.mycompany -DartifactId=blank -DarchetypeGroupId=org.apache.struts -DarchetypeArtifactId=struts2-archetype-blank -DarchetypeVersion=2.3.20 -DremoteRepositories=http://struts.apache.org
+
+
+mvn archetype:generate -B -DgroupId=com.mycompany -DartifactId=starter -DarchetypeGroupId=org.apache.struts -DarchetypeArtifactId=struts2-archetype-starter -DarchetypeVersion=2.3.20 -DremoteRepositories=http://struts.apache.org
+
+mvn archetype:generate -B -DgroupId=com.mycompany -DartifactId=angularjs -DarchetypeGroupId=org.apache.struts -DarchetypeArtifactId=struts2-archetype-angularjs -DarchetypeVersion=2.3.20 -DremoteRepositories=http://struts.apache.org
+
+
+mvn archetype:generate -B -DgroupId=com.mycompany -DartifactId=portlet -DarchetypeGroupId=org.apache.struts -DarchetypeArtifactId=struts2-archetype-portlet -DarchetypeVersion=2.3.20 -DremoteRepositories=http://struts.apache.org
+
+mvn archetype:generate -B -DgroupId=com.mycompany -DartifactId=dbportlet -DarchetypeGroupId=org.apache.struts -DarchetypeArtifactId=struts2-archetype-dbportlet -DarchetypeVersion=2.3.20 -DremoteRepositories=http://struts.apache.org
+
+
+mvn archetype:generate -B -DgroupId=com.mycompany -DartifactId=plugin -DarchetypeGroupId=org.apache.struts -DarchetypeArtifactId=struts2-archetype-plugin -DarchetypeVersion=2.3.20 -DremoteRepositories=http://struts.apache.org
+
+mvn archetype:generate -B -DgroupId=com.mycompany -DartifactId=rest -DarchetypeGroupId=org.apache.struts -DarchetypeArtifactId=struts2-rest-showcase -DarchetypeVersion=2.3.20 -DremoteRepositories=http://struts.apache.org
+
+mvn eclipse:eclipse -Dwtpversion=1.5
